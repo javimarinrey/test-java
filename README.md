@@ -1,11 +1,12 @@
 # Java sample codes
 - Web JSP
-- Servlets
 - Concurrency
 - Database
 - Exceptions
+- FTP
 - Log4j
 - Patterns
+- Properties
+- Servlets
 - Stream
 - XML
-- Others...
