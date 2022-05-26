@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.patterns.creacion.factory_method</OriginalElement>
+  <nodes>
+    <node x="0.0" y="85.0">com.patterns.creacion.factory_method.ArchivoAudio</node>
+    <node x="188.0" y="85.0">com.patterns.creacion.factory_method.ArchivoVideo</node>
+    <node x="114.0" y="0.0">com.patterns.creacion.factory_method.IArchivo</node>
+    <node x="253.0" y="165.0">com.patterns.creacion.factory_method.Main</node>
+    <node x="45.0" y="250.0">com.patterns.creacion.factory_method.Creador</node>
+    <node x="0.0" y="165.0">com.patterns.creacion.factory_method.CreadorAbstracto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.patterns.creacion.factory_method.Creador" target="com.patterns.creacion.factory_method.CreadorAbstracto">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="com.patterns.creacion.factory_method.ArchivoVideo" target="com.patterns.creacion.factory_method.IArchivo">
+      <point x="0.0" y="-17.5" />
+      <point x="272.0" y="60.0" />
+      <point x="210.0" y="60.0" />
+      <point x="32.0" y="17.5" />
+    </edge>
+    <edge source="com.patterns.creacion.factory_method.ArchivoAudio" target="com.patterns.creacion.factory_method.IArchivo">
+      <point x="0.0" y="-17.5" />
+      <point x="84.0" y="60.0" />
+      <point x="146.0" y="60.0" />
+      <point x="-32.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="178.0" y="142.5" />
+  <SelectedNodes>
+    <node>com.patterns.creacion.factory_method.IArchivo</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>patterns.creacion.builder</OriginalElement>
+  <nodes>
+    <node x="233.0" y="165.0">patterns.creacion.builder.Director</node>
+    <node x="308.0" y="0.0">patterns.creacion.builder.BuilderCoche</node>
+    <node x="0.0" y="85.0">patterns.creacion.builder.ConstructorCocheBase</node>
+    <node x="268.0" y="85.0">patterns.creacion.builder.ConstructorCocheFull</node>
+    <node x="406.0" y="165.0">patterns.creacion.builder.Coche</node>
+    <node x="0.0" y="165.0">patterns.creacion.builder.BuilderPattern</node>
+    <node x="536.0" y="85.0">patterns.creacion.builder.ConstructorCocheMedio</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="patterns.creacion.builder.ConstructorCocheFull" target="patterns.creacion.builder.BuilderCoche">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="patterns.creacion.builder.ConstructorCocheMedio" target="patterns.creacion.builder.BuilderCoche">
+      <point x="0.0" y="-17.5" />
+      <point x="665.0" y="60.0" />
+      <point x="448.0" y="60.0" />
+      <point x="56.0" y="17.5" />
+    </edge>
+    <edge source="patterns.creacion.builder.ConstructorCocheBase" target="patterns.creacion.builder.BuilderCoche">
+      <point x="0.0" y="-17.5" />
+      <point x="124.0" y="60.0" />
+      <point x="336.0" y="60.0" />
+      <point x="-56.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="397.0" y="100.0" />
+  <SelectedNodes>
+    <node>patterns.creacion.builder.Director</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
