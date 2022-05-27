@@ -1,13 +1,22 @@
 package patterns.creacion.singleton;
 
+import java.util.Properties;
+
 /**
  * Para aplicaciones que utilicen multi-hilos (threads) no creen diferentes instancias de la clase
  */
 public class SingletonPatternMultiThreads {
 
+    /* Atributos */
+    private Properties properties;
+
     private static SingletonPatternMultiThreads instance;
 
-    private SingletonPatternMultiThreads(){}
+    /* Constructor */
+    private SingletonPatternMultiThreads(){
+        properties = new Properties();
+        properties.setProperty("ENVIRONMENT", "TEST");
+    }
 
     public static SingletonPatternMultiThreads getInstance() {
         if (instance == null) {
@@ -20,5 +29,9 @@ public class SingletonPatternMultiThreads {
             }
         }
         return instance;
+    }
+
+    public Properties getProperties() {
+        return properties;
     }
 }
